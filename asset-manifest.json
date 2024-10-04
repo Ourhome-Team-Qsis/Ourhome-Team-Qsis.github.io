@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fbb4ac57.css",
+    "main.js": "/static/js/main.0c1f9708.js",
+    "static/media/world.svg": "/static/media/world.d3ef4b28e4c96b648fbdd506c4d65594.svg",
+    "static/media/GuideLine_popup.png": "/static/media/GuideLine_popup.e5dd926452db2e6a15bf.png",
+    "static/media/south-korea.svg": "/static/media/south-korea.02dbaeadd42683a4d0fb827b458e7313.svg",
+    "static/media/home_bg.jpg": "/static/media/home_bg.581e09e8fa1e6e5d076b.jpg",
+    "static/media/qr-list-header.png": "/static/media/qr-list-header.f383b8c53d87e5009a24.png",
+    "static/media/index.cjs": "/static/media/index.42119833dddefe38a9fa.cjs",
+    "index.html": "/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.fbb4ac57.css",
+    "static/js/main.0c1f9708.js"
+  ]
+}
