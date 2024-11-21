@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.fbb4ac57.css",
-    "main.js": "/static/js/main.b4636a8a.js",
+    "main.js": "/static/js/main.85c67993.js",
     "static/media/world.svg": "/static/media/world.d3ef4b28e4c96b648fbdd506c4d65594.svg",
     "static/media/GuideLine_popup.png": "/static/media/GuideLine_popup.e5dd926452db2e6a15bf.png",
     "static/media/south-korea.svg": "/static/media/south-korea.02dbaeadd42683a4d0fb827b458e7313.svg",
@@ -12,6 +12,6 @@
   },
   "entrypoints": [
     "static/css/main.fbb4ac57.css",
-    "static/js/main.b4636a8a.js"
+    "static/js/main.85c67993.js"
   ]
 }

@@ -1,0 +1,46 @@
+<body>
+  <div class="wRap" id="crownix-viewer"></div>
+</body>
+<script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"
+></script>
+<meta charset="UTF-8" />
+<link rel="stylesheet" type="text/css" href="/report/crownix-viewer.min.css" />
+<script src="/report/crownix-viewer.min.js"></script>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  .wRap {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+</style>
+<script type="text/javascript">
+  const params = Object.fromEntries(new URLSearchParams(location.search));
+  $(document).ready(function () {
+    const url = `https://gmcp.ourhome.co.kr/ReportingServer/mrd/tqms/claim_list.mrd`;
+    const optionsString = [
+      '/rv',
+      params.startAt ? `startAt[${params.startAt}]` : '',
+      params.endAt ? `endAt[${params.endAt}]` : '',
+    ].join(' ');
+
+    var viewer = new m2soft.crownix.Viewer('https://gmcp.ourhome.co.kr/ReportingServer/service', 'crownix-viewer');
+    viewer.openFile(url, optionsString);
+    // viewer.openFile(
+    //   `https://gmcp.ourhome.co.kr/ReportingServer/mrd/tqms/${report_id}.mrd`,
+    //   '/rv /rstyle [p {font-size:10pt; font-family:맑은 고딕;}]',
+    // );
+  });
+
+  // window.history.pushState(null, null, '/mrd/tqms/claim_list' + location.search);
+</script>
